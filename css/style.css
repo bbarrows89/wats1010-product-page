@@ -40,9 +40,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0;
 }
 
-.navbar img {
-  height: 80px;
-  padding: 0px;
+.navbar-brand>img {
+  height: auto;
+  width: 50%;
 }
 
 .black {
@@ -53,7 +53,8 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
-	height: 0;
+  height: 0;
+  z-index: 1;
 }
 .videoWrapper iframe {
 	position: absolute;
@@ -61,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
+} 
 
 ::-webkit-selection {
   color: #818892;
